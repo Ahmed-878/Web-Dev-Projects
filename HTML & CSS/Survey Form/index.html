@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Author: Ahmed Abou El-Haggag -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <!-- Author: Ahmed Abou El-Haggag -->
+    <h1 id="title">ReserveTrips Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve our service
+    </p>
+    <form id="survey-form">
+      <div class="form-set">
+        <label id="name-label" for="name"
+          >Name
+          <input id="name" type="text" placeholder="Enter your name" required
+        /></label>
+      </div>
+      <div class="form-set">
+        <label id="email-label" for="email"
+          >Email
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+        /></label>
+      </div>
+      <div class="form-set">
+        <label id="number-label" for="number"
+          >Age (optional)
+          <input
+            id="number"
+            type="number"
+            placeholder="Enter your age"
+            min="12"
+            max="140"
+        /></label>
+      </div>
+      <div class="form-set">
+        <label for="dropdown"
+          >How did you hear about us?
+          <select id="dropdown">
+            <option disabled selected value>Select an option</option>
+            <option value="1">Social Media</option>
+            <option value="2">Friend/Family</option>
+            <option value="4">Advertisment</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+      </div>
+      <div class="form-set">
+        <p>Is this the only application you use for reserving your trips?</p>
+        <label for="yes" class="radio-label">
+          <input
+            id="yes"
+            name="yes-no"
+            type="radio"
+            value="yes"
+            class="inp-radio"
+            checked
+          />
+          Yes
+        </label>
+        <label for="no" class="radio-label">
+          <input
+            id="no"
+            name="yes-no"
+            type="radio"
+            value="no"
+            class="inp-radio"
+            checked
+          />
+          No
+        </label>
+      </div>
+
+      <div class="form-set">
+        <p>
+          <strong>What would you like to see improved? </strong> (check all that
+          apply)
+        </p>
+
+        <label for="search" class="checkbox-label"
+          ><input
+            id="search"
+            type="checkbox"
+            value="search"
+            class="inp-checkbox"
+          />Searching for Trips</label
+        >
+        <label for="booking" class="checkbox-label"
+          ><input
+            id="booking"
+            type="checkbox"
+            value="booking"
+            class="inp-checkbox"
+          />Booking Process</label
+        >
+        <label for="trip-info" class="checkbox-label"
+          ><input
+            id="trip-info"
+            type="checkbox"
+            value="trip-info"
+            class="inp-checkbox"
+          />Trip Information</label
+        >
+      </div>
+      <div class="form-set">
+        <p>Any comments or suggestions?</p>
+        <textarea
+          placeholder="Enter your comment/suggestion here..."
+        ></textarea>
+      </div>
+      <div class="submit-survey">
+        <input id="submit" type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

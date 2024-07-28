@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Author: Ahmed Abou El-Haggag -->
+    <!-- Roboto Slab Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+
+    <!-- Social Media Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--  -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dummy | Ultra Red Tesla</title>
+  </head>
+  <body>
+    <header id="header" class="container">
+      <nav id="nav-bar">
+        <div class="logo-con">
+          <img id="header-img" src="logo-1.png" alt="Tesla Logo" />
+        </div>
+        <div class="nav-links-con text--animation-black">
+          <a href="#Specs" class="nav-link">Specs</a
+          ><a href="#Video_Introduction" class="nav-link">Video Introduction</a
+          ><a href="#Order_Now" class="nav-link">Order Now</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="text--animation container">ultra red tesla</h1>
+      <section id="Video_Introduction" class="video-intro container">
+        <iframe
+        alt="Video Illustration" id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/QHvpAtvurQE?si=5zxVqpWRv0Zp9Pe7"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="Specs" class="specs container">
+        <div class="specs-con text--animation">
+          <p>Specs</p>
+          <div class="spec-1">
+            <div class="spec-head">359 mi</div>
+            <div class="spec-sub">Range (EPA est.)</div>
+          </div>
+          <div class="spec-2">
+            <div class="spec-head">1.99 s</div>
+            <div class="spec-sub">0-60 mph2</div>
+          </div>
+          <div class="spec-3">
+            <div class="spec-head">200 mph</div>
+            <div class="spec-sub">Top Speed</div>
+          </div>
+          <div class="spec-4">
+            <div class="spec-head">1,020 hp</div>
+            <div class="spec-sub">Peak Power</div>
+          </div>
+        </div>
+        <div class="spec-img-wrap">
+          <img src="bg-1.jpg" alt="Red Tesla" loading="lazy" />
+        </div>
+      </section>
+      <section id="Order_Now" class="order-now container">
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="POST"
+        >
+          <label for="email" class="text--animation"
+            >Ready for the Future?
+          </label>
+          <div class="input--wrapper">
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Enter Your Email"
+              required
+            />
+            <input id="submit" name="submit" type="submit" value="Order Now" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section class="disclaimer-footer container">
+        <div class="icons-and-terms-con">
+          <div class="terms">
+            <a>Home</a>
+            <a>About</a>
+            <a>Terms</a>
+            <a>Privacy</a>
+            <a>Contact</a>
+          </div>
+          <div class="social--icons">
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+        </div>
+        <p>
+          <span>Disclaimer:</span> This website is a student project and does
+          not represent an official website.
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>

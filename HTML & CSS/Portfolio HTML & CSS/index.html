@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Author: Ahmed Abou El-Haggag  -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Portfolio | Ahmed Abou El-Haggag</title>
+
+    <!-- Social Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <!--  -->
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+  </head>
+  <body>
+    <!-- Author: Ahmed Abou El-Haggag  -->
+    <nav id="navbar">
+      <div class="social--icons">
+        <a
+          href="https://www.linkedin.com/in/ahmed-abou-el-haggag-77857428b/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Ahmed-878/Web-Dev-Projects" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <a class="toggle--button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <ul class="nav--links">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#profile-link-section">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome container">
+      <div class="img--wrapper">
+        <img alt="Profile Picture" src="profile_pic.png" class="profile--pic" />
+      </div>
+      <h1>Hey, I am Ahmed 👋🏼</h1>
+      <p class="about--title">
+        business<br />
+        informatics <br />undegraduate.
+      </p>
+      <p class="paragraph about--paragraph">
+        Enthusiastic about exploring the world of web development, I'm eager to
+        master <strong>JavaScript and React</strong> to create innovative,
+        user-centric <strong>web applications.</strong>
+      </p>
+    </section>
+    <section id="projects" class="container">
+      <div class="projects--container">
+        <h2>Projects</h2>
+        <p class="project--sub-paragraph">
+          Below are some of the projects I completed while studying
+          <strong
+            >freeCodeCamp's Responsive Web Design Course using HTML &
+            CSS</strong
+          >.
+        </p>
+        <!-- Project 1 -->
+        <div class="proj--container">
+          <h3>Survey Form</h3>
+          <img
+            src="proj1-img.PNG"
+            alt="Project 1 - Screenshot"
+            class="project--ss"
+          />
+          <p class="project--description">
+            A simple survey form for a ficitional transportation organization.
+          </p>
+          <a
+            href="https://reservetrips.netlify.app/"
+            class="project--link"
+            target="_blank"
+            >Website</a
+          >
+        </div>
+        <!-- Project 2 -->
+        <div class="proj--container alternate">
+          <h3>Technical Documentation Template</h3>
+          <img
+            src="proj2-img.PNG"
+            alt="Project 2 - Screenshot"
+            class="project--ss"
+          />
+          <p class="project--description">
+            A technical documentation template with dummy text as its content.
+          </p>
+          <a
+            href="https://technicaldocumentation-101.netlify.app/"
+            class="project--link"
+            target="_blank"
+            >Website</a
+          >
+        </div>
+        <!-- Project 3 -->
+        <div class="proj--container">
+          <h3>Product Landing Page</h3>
+          <img
+            src="proj3-img.PNG"
+            alt="Project 3 - Screenshot"
+            class="project--ss"
+          />
+          <p class="project--description">
+            An unofficial & simple product landing page for a tesla car.
+          </p>
+          <a
+            href="https://dummy-product-landing-page.netlify.app/"
+            class="project--link"
+            target="_blank"
+            >Website</a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="profile-link-section" class="contact container">
+      <div class="reach-out--container">
+        <h2>Get in Touch</h2>
+        <p class="paragraph">
+          Want to collaborate or learn more about my work?
+          <strong>Feel free to reach out!</strong>
+        </p>
+      </div>
+      <!-- <strong> -->
+      <div class="contact-info--container">
+        <div class="contact--info--google contact--info--sizing">
+          <a
+            href="https://mail.google.com"
+            class="contact--google"
+            target="_blank"
+            ><i class="fa fa-envelope"></i
+            ><span>ahmedabouelhaggag@gmail.com</span>
+          </a>
+        </div>
+        <div class="contact--info--linkedin contact--info--sizing">
+          <a
+            class="contact--linkedin"
+            href="https://www.linkedin.com/in/ahmed-abou-el-haggag-77857428b/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i><span>Linkedin</span></a
+          >
+        </div>
+        <div class="contact--info--github contact--info--sizing">
+          <a
+            class="contact--github"
+            href="https://github.com/Ahmed-878/Web-Dev-Projects"
+            target="_blank"
+            ><i class="fab fa-github"></i><span>GitHub</span></a
+          >
+        </div>
+      </div>
+      <!-- </strong> -->
+    </section>
+    <footer class="container">
+      <p class="signature"><< Ahmed Abou El-Haggag >></p>
+    </footer>
+  </body>
+</html>
